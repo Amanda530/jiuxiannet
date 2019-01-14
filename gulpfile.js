@@ -24,7 +24,7 @@ gulp.task("copyJs",function(){
 });
 
 gulp.task("sass",function(){
-	gulp.src("sass/*.scss")
+	gulp.src("sass/**")
 	.pipe(sourcemaps.init())
 	.pipe(sass({outputStyle: 'compressed'}))
 	.pipe(sourcemaps.write())
@@ -46,7 +46,7 @@ gulp.task("server",function(){
 	.pipe(gulp.dest("dist/js"));
 })*/
 gulp.task("watch",function(){
-gulp.watch(["*.html","img/**","sass/*.scss","js/*.js"],["copyHtml","copyImg","sass","copyJs"]);
+gulp.watch(["*.html","img/**","sass/**","js/*.js"],["copyHtml","copyImg","sass","copyJs"]);
 	
 })
 //gulp.task("build",["hello","copyHtml","copy-imgs","data"]);

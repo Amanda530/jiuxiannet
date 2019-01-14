@@ -1,6 +1,147 @@
-div{
-    color: red;
-    width:10px;
-    height: 100px;
-    background:aquamarine;
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,th,td {
+    margin: 0;
+    padding: 0;
 }
+i,em{
+    font-style: normal;
+}
+input{
+    outline: none;
+}
+li{
+    list-style: none;
+}
+.frame{
+    width: 100%;
+    
+}
+body{
+    color: #666;
+    min-width: 1000px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif, 宋体;
+    text-align: left;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+//top
+.nav-top{
+    width: 100%;
+    background: #f2f2f2;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 980;
+    .nav-top22{
+        width: 1200px;
+        height: 26px;
+        line-height: 26px;
+        margin: 0 auto;
+        position: relative;
+        .nav-tleft{
+                width: 220px;
+                overflow: hidden;
+                height: 26px;
+                position: absolute;
+                left: 0;
+                top: 0;
+                .nav-huan{
+                        margin-right: 6px;
+                        float: left;
+                        line-height: 26px;
+                        color: #999;
+                        a{
+                            color: #999;
+                            cursor: pointer;
+                            text-decoration: none;
+                        }
+                }
+        }
+        ul{
+            height: 26px;
+            float: right;
+            color: #666;
+            li{
+                height: 26px;
+                float: left;
+                padding: 0 5px;
+                position: relative;
+                display: list-item;
+               // text-align: -webkit-match-parent;
+                text-align: center;
+                a{
+                     color: #999;
+                     cursor: pointer;
+                     text-decoration: none;
+                }
+            }
+        } 
+    }     
+}  
+       .hd-n1{  
+                .myJiuxian{
+                    width: 70px;
+                    z-index: 203;
+                    padding: 0 4px 0 7px;
+                    border-left: 1px solid #f2f2f2;
+                    border-right: 1px solid #f2f2f2;
+                }
+                .n1-jiu{
+                        border-top: 0;
+                        position: absolute;
+                        top: 27px;
+                        left: 10px;
+                        z-index: 206;
+                        background: #fff;
+                        text-align: center;
+                        width: 72px;
+                        a{
+                        width: 72px;
+                        line-height: 26px;                      
+                        display:inline-block;
+                        float: left;
+                        
+                        height: 26px;
+                        text-decoration: none;
+                        }
+                }
+              }
+     
+     .hd-n3 b{
+         color:#C40000;
+     }   
+     .hd-n4 b{
+           color:#C40000;
+     }  
+     .hd-n9{
+          color:#C40000;
+         
+     } 
+     .hd-n2 b{
+         color:#C40000;
+    }              
+     .n1-jiu,.erwei{
+         display: none;
+     } 
+    .nav-top-bo2{
+            display: block;
+            width: 100%;
+            height: 90px;
+            background:url(../img/nav-bto2.jpg) no-repeat top center scroll;
+    }    
+   .nav-top-bo3{
+       width: 100%;
+       height: 125px;
+       .nav-top-bo3-kaung{
+           width: 1200px;
+            height: 125px;
+           margin: 0 auto;
+           background: #CCCCCC;
+           .nav-top-bo3-left{
+               float: left;
+               
+           }
+       }
+   }     
+        
