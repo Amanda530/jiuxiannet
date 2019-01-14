@@ -1,10 +1,510 @@
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,th,td {
     margin: 0;
     padding: 0;
 }
-ul li{
-    list-style: none;
+i,em{
+    font-style: normal;
 }
+input{
+    outline: none;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+@font-face {
+  font-family: 'iconfont';  /* project id 1014149 */
+  src: url('//at.alicdn.com/t/font_1014149_45p0afwbti2.eot');
+  src: url('//at.alicdn.com/t/font_1014149_45p0afwbti2.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1014149_45p0afwbti2.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1014149_45p0afwbti2.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1014149_45p0afwbti2.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1014149_45p0afwbti2.svg#iconfont') format('svg');
+}
+
+
+$border1: 3px solid #eaeaea;
+$box-shadow1: 1px 6px 11px #e4e4e4;
+body{
+    FONT-SIZE: 12px;
+    color: #666;
+    background: #f7f7f7;
+    font-family: Arial, Helvetica, sans-serif,"宋体"
+}
+ul li{list-style: none;}
 .jx-wrap{
     width: 100%;
+    font-family: "宋体";
+    background: #fafafa;
+    min-width: 1000px;
+    
+}
+    .navtop{
+        box-shadow: 1px 6px 11px #e4e4e4;
+        border: 3px solid #eaeaea;
+        width: 100%;
+        background: #fff;
+        height: 88px;
+        .nav{
+            margin: 0 auto;
+            width:1000px;
+            height: 88px;
+            position: relative;
+            .navleft{        
+                     
+                display: inline-block;
+                width: 266px;
+                height: 64px;
+                      img{
+                         display: inline-block;
+                         width: 266px;
+                         height: 64px;
+                        }     
+                    }
+            .navright{
+                margin-top: -32px;
+                float: right;
+                display: inline-block;
+                width: 470px;
+                position: absolute;
+                right: 0;
+                
+                    .nright{
+                            height: 14px;
+                            position: relative;
+                            z-index: 2;
+                            float: right;
+                            
+                            margin-top: 47px;
+                            span{
+                                float: left;
+                                display: inline-block;
+                                color: #666;
+                               
+                                }
+                             i{ 
+                                float: right;
+                                display: inline-block;
+                                width: 20px;
+                                height: 20px;
+                                background: url(../img/regLogin.png);
+                               
+                             }
+                            }
+                            
+                   .yincang{
+                            position: absolute;
+                            top: 28px;
+                            right: -8px;
+                            top:-33px;
+                            width: 85px;
+                            z-index: 1;
+                            padding-top: 26px; 
+                               ul{
+                                    float: right; 
+                                    border: 1px solid #ccc;
+                                    top: -6px;
+                                    left: -10px;
+                                    width: 85px;
+                                    z-index: 1;
+                                    padding-top: 26px;
+                                   
+                                    li{
+                                        border-top: 1px dotted #ccc;
+                                        padding-left: 10px;
+                                        height: 24px;
+                                        line-height: 24px;
+                                        background: #fff;
+                                        background-position: 13px 13px; 
+                                        }
+                                  }
+                            }  
+                    .huanying{
+                            float: right;
+                            color: #999;
+                            margin-top: 48px;
+                            height: 14px;
+                            line-height: 14px;
+                            padding-right: 51px;
+                                }
+                }
+            }
+            }
+        
+                              //top end;
+.center{
+    margin-top: 33px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 515px;
+        
+        background-image:url("../img/bg.jpg");
+        
+        .center-cen{
+            width:1000px;
+            height:500px;
+            margin: 0 auto;
+            .center-centre{
+            width: 992px;
+            padding-bottom: 60px;
+            border: 3px solid #eaeaea;
+            box-shadow: 1px 6px 11px #e4e4e4;
+            background:#FFFFFF;
+            .center-bottom{
+                $widthuu : 784px;
+                $heightuu: 42px;
+                width: 455px;
+                height: 397px;
+                margin: 0 auto;
+                .kuang{
+                    width:430px;
+                    height:40px;
+                    margin-top:20px;
+                   em{
+                        font-size: 16px;
+                        text-align: right;
+                        width: 80px;
+                        height:40px;
+                        float: left;
+                        color: #000000; 
+                    }
+                    .stron{
+                        border: 1px solid #000000;
+                        width:304px;
+                        height:42px;
+                        float: right;
+                        position: relative;
+                    i{
+                        display: inline-block;
+                        width: 46px;
+                        height: 38px;
+                        
+                    }
+                    input{                       
+                        width: 246px;
+                        height: 40px;
+                        display: inline-block;
+                        border: none;
+                        position: absolute;
+                        left:45px;
+                        top:0;
+                    } 
+                    }
+                    .stroul{
+                        
+                        border: 1px solid #000000;
+                        width:152px;
+                        height:42px;
+                        float: right;
+                        position: absolute;
+                        left: 100;
+                        i{
+                        display: inline-block;
+                        width: 46px;
+                        height: 38px;
+                        
+                         }
+                   
+                     input{                       
+                        width: 152px;
+                        height: 40px;
+                        display: inline-block;
+                        border: none;
+                        position: absolute;
+                        left:45px;
+                        top:0;
+                        
+                    }
+                    
+                    }
+                    }
+               
+
+            }  
+             }     
+            .center-top{
+                height:40px;
+                width: 1000px;
+                $widddd :118px;
+                $heidddd :37px;
+                        .center-tone{
+                            width: 118px;
+                            height:37px;
+                            float: right;
+                            font-size: 16px;
+                            background: orange;
+                            padding-bottom: 5px;
+                            color: #FFFFFF;
+                            margin-right:20px;
+                            border-radius: 5px 5px 0 0;
+                            text-align:center;
+                           
+                            border-bottom: none;
+                            line-height:37px;
+                        }
+                         .center-ttwo{
+                            width: 118px;
+                            height:37px;
+                            float: right;
+                            font-size: 16px;
+                            padding-bottom: 3px;
+                            color: #ff9900;
+                            margin-right:15px;
+                            border: $border1;
+                            border-radius: 5px 5px 0 0;
+                            text-align:center;
+                            border-bottom: none;
+                            background: #FFFFFF; 
+                            line-height:37px; 
+                        }
+            } 
+
+            }
+         
+                   }
+                       
+.center22{
+        margin-bottom: 20px;
+        width: 100%;
+        height: 1050px;    
+        background:#FFFFFF; 
+        display: none;
+        
+                 .center-top22{
+                height:40px;
+                width: 1000px;
+                $widddd :118px;
+                $heidddd :37px;
+                margin: 0 auto;
+                        .center-tone{
+                            width: 118px;
+                            height:37px;
+                            float: right;
+                            font-size: 16px;
+                            padding-bottom: 4px;
+                            color: #ff9900;
+                            margin-right:15px;
+                            border-radius: 5px 5px 0 0;
+                            text-align:center;
+                            border-bottom: none;
+                            background: #FFFFFF; 
+                            line-height: 37px;
+                            border: $border1;
+                            border-bottom: none;
+                        }
+                         .center-ttwo{
+                            width: 118px;
+                            height:37px;
+                            background:#ff9900;
+                            color: #FFFFFF;
+                            float: right;
+                            font-size: 16px;
+                            text-align:center;
+                            padding-bottom: 4px;
+                            margin-right:5px;
+                           
+                            border-radius: 5px 5px 0 0;
+                            line-height: 37px;
+                        }
+            } 
+        .center-cen22{
+                margin: 0 auto;
+                width: 992px;
+                border: 3px solid #eaeaea;
+                box-shadow: 1px 6px 11px #e4e4e4;   
+                
+              .center-bottom22{
+                    width: 994px;
+                    height: 1001px;
+                    margin: 0 auto; 
+                    padding: 7px 50px;
+                     h2{
+                    height: 68px;
+                    width: 897px;
+                    border-bottom:2px dashed #ccc ;
+                    display: inline-block;
+                    margin: 0 auto;
+                    line-height: 68px;
+                    font-size:19px ;
+                    span{
+                        width:173px;
+                        display: inline-block;
+                        font-size: 12px;
+                        padding-left:23px ;
+                        color:#FFA500;
+                    }
+                }         
+                    
+              .qiye{
+                        width:430px;
+                        height:40px;
+                        margin-top:20px;
+                        padding-left:68px ;
+                   em{
+                        font-size: 16px;
+                        text-align: right;
+                        width: 80px;
+                        height:40px;
+                        float: left;
+                        color: #000000; 
+                    }
+                    .teshu{
+                        margin-left:120px;
+                      select{
+                                width: 99px;
+                                height: 39px;
+                                display: inline-block;
+                                line-height: 42px;
+                                
+                            }
+                            }
+                    .qiye-yong{
+                        border: 1px solid #000000;
+                        width:304px;
+                        height:42px;
+                        float: right;
+                        position: relative;
+                         i{
+                                display: inline-block;
+                                width: 46px;
+                                height: 38px;
+                           
+                            }
+                            input{                       
+                                width: 152px;
+                                height: 40px;
+                                display: inline-block;
+                                border: none;
+                                position: absolute;
+                                left:45px;
+                                top:0;
+                            }
+                          
+                   }
+                 }
+                }
+                }
+              
+            }
+            
+   .botom{
+          width: 100%;
+          height: 150px;
+          background: #FFFFFF;
+          .bot-tom{
+              width: 1000px;
+              height: 150px;
+              margin: 0 auto;
+              h6{
+                  padding-top: 60px;
+                  width: 610px;
+                  margin: 0 auto;
+                  text-align:center;
+                  font-size: 14px;
+                  color: black;
+                  span{
+                      color: #666666;
+                      display: inline-block;
+                  }
+              }
+              h5{
+                   padding-top:18px;
+             
+                  width: 515px;
+                  font-size:14px ; 
+                  color: #FF0000;
+                  margin: 0 auto;
+              }
+          }
+             }  
+.plephone{
+    top: 225px;
+    right: 474px;
+}
+.plenumone{
+    top: 225px;
+    right: 474px;
+    z-index: 5;
+}
+.pleyzm{
+    top: 288px;
+    right: 474px;
+    
+}
+.plejzm{
+    top: 347px;
+    right: 591px;
+    
+}
+.plepass{
+  top: 409px;
+  right: 474px;
+}
+.plepassword{
+     top: 409px;
+    right: 474px;
+}
+.passanthor{
+      top: 474px;
+    right: 474px;
+}
+.yangshi2{
+    background: #CCCCCC;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 8px;
+    position: absolute;
+    z-index: 4;
+    display: none;
+}
+.yangshi{
+    background: #ed787f;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 8px;
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+.tole{
+   top: 38px;
+   left: 211px;
+}
+
+//@mixin no-bullets(
+//  background: #000,
+//  height: 20px,
+//  line-height: 20px,
+//  color: #fff;
+//  padding: 0 8px,
+//  z-index: 5;
+//)
+//.plepass{
+//  @include no-bullets;
+//  };
+.regPointIcon{
+    width: 15px;
+    height: 14px;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    display: none;
+}
+.qiang{
+    float: left;
+    padding: 10px 0 0 10px;
+    height: 32px;
+    width: 130px;
+    position: absolute;
+    top: 373px;
+    left: 870px;
+}
+.dududu2{
+    position: absolute;
+    top: 431px;
+    left: 870px;
 }
