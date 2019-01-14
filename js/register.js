@@ -60,10 +60,11 @@ $("#txt3").focusout(function(){
 							}
 });
 $("#txt4").focus(function(){
-	$(".plepass").show();
+	
+	$(".plepass").show().next().hide();
 });
 $("#txt4").focusout(function(){
-	var myreg =/^[a-z0-9_-]{8,18}$/ ;
+	var myreg =/^[a-z0-9A-Z\d_]{8,18}$/;
 	var teval = $(this).val();
 	if(teval.length < 8 || myreg.test(teval) == false){
 			$(this).parent().css({"border":"1px solid #ed787f"});
@@ -71,11 +72,21 @@ $("#txt4").focusout(function(){
 			console.log($(this));
 	}
 	if(teval.length < 18 && myreg.test(teval) == true){
-		$(".plepass").next().hide();
+		$(".plepass").hide().ext().hide();
 		$(this).parent().css({"border":"1px solid #ccc"});
+		
 	}
 	
 });
 
-
+$("#txt5").focusout(function(){
+	if($(this).val() !== $("#txt4").val()){
+	$(".passanthor").show();
+	$(this).parent().css({"border":"1px solid #ed787f"});
+	}
+	if($(this).val() == $("#txt4").val()){
+	$(".passanthor").hide();
+	$(this).parent().css({"border":"1px solid #ccc"});
+	}
+});
 })
